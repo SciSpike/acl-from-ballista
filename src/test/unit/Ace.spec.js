@@ -5,7 +5,7 @@ const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
 const uuid = require('uuid/v4')
-const { traits } = require('@northscaler/mutrait')
+const { traits } = require('@ballistagroup/mutrait')
 
 const Ace = require('../../main/Ace')
 const StaticAccessControlStrategy = require('../../main/StaticAccessControlStrategy')

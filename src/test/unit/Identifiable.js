@@ -1,7 +1,7 @@
 'use strict'
 
 const uuid = require('uuid/v4')
-const { Trait } = require('@northscaler/mutrait')
+const { Trait } = require('@ballistagroup/mutrait')
 
 const Identifiable = Trait(s => class extends s {
   constructor () {
